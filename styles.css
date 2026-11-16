@@ -1,0 +1,40 @@
+.header{
+    background-color: rgb(34, 47, 81);
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+.logo{
+    font-weight: 700;
+}
+
+.header-links{
+    font-size: small;
+    font-weight: 300;
+    display: flex;
+    gap: 20px;
+}
+
+.first-row{
+    margin-top: -20px;
+    background-color: rgb(34, 47, 81);
+    display: flex;
+    
+}
+
+.header, .first-row, .header-links{
+    color: white;
+}
+
+#awesome{
+    font-size: xx-large;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+#awesome-sub{
+    font-size: small;
+    flex-wrap: wrap;
+}
